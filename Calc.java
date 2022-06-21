@@ -45,7 +45,7 @@ public class Calc {
     public static void main(String[] args) {
         
         System.out.println("Hello...");
-        System.out.println("yo...");
+        System.out.println("yo.....");
 
         Scanner s = new Scanner(System.in);
         while (1 == 1) 
