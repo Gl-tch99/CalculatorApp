@@ -44,6 +44,8 @@ public class Calc {
 
     public static void main(String[] args) {
         
+        System.out.println("Hello...");
+
         Scanner s = new Scanner(System.in);
         while (1 == 1) 
         {
