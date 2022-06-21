@@ -25,6 +25,12 @@ public class Calc {
         return num1 / num2;
     }
 
+    public static double per(double num1, double num2)
+    {
+        double per = ((num1 + num2) * 100) / 200;
+        return per;
+    }
+
     public static void main(String[] args) {
         
         Scanner s = new Scanner(System.in);
@@ -34,6 +40,7 @@ public class Calc {
             System.out.println("2. Subtract");
             System.out.println("3. Multiply");
             System.out.println("4. Division");
+            System.out.println("5. Percentage");
             System.out.println("0. Exit");
             int func = s.nextInt();
             switch(func)
@@ -75,6 +82,16 @@ public class Calc {
                     System.out.println("Enter num2:");
                     num2 = s.nextDouble();
                     double res = div(num1, num2);
+                    System.out.println(res);
+                    break;
+                }
+                case 5:
+                {
+                    System.out.println("Enter num1:");
+                    num1 = s.nextDouble();
+                    System.out.println("Enter num2:");
+                    num2 = s.nextDouble();
+                    double res = per(num1, num2);
                     System.out.println(res);
                     break;
                 }
