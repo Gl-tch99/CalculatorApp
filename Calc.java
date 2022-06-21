@@ -31,6 +31,17 @@ public class Calc {
         return per;
     }
 
+    public static double pow(double num1, double num2)
+    {
+        int pow = (int)num2;
+        double res = 1;
+        for(int i = 0; i < pow; i++)
+        {
+            res = res * num1;
+        }
+        return res;
+    }
+
     public static void main(String[] args) {
         
         Scanner s = new Scanner(System.in);
@@ -41,6 +52,7 @@ public class Calc {
             System.out.println("3. Multiply");
             System.out.println("4. Division");
             System.out.println("5. Percentage");
+            System.out.println("6. Power");
             System.out.println("0. Exit");
             int func = s.nextInt();
             switch(func)
@@ -92,6 +104,16 @@ public class Calc {
                     System.out.println("Enter num2:");
                     num2 = s.nextDouble();
                     double res = per(num1, num2);
+                    System.out.println(res);
+                    break;
+                }
+                case 6:
+                {
+                    System.out.println("Enter num1:");
+                    num1 = s.nextDouble();
+                    System.out.println("Enter num2:");
+                    num2 = s.nextDouble();
+                    double res = pow(num1, num2);
                     System.out.println(res);
                     break;
                 }
