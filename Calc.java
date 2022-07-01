@@ -62,10 +62,12 @@ public class Calc {
             {
                 case 1:
                 {
-                    System.out.println("Enter num1:");
-                    num1 = s.nextDouble();
-                    System.out.println("Enter num2:");
-                    num2 = s.nextDouble();
+//                     System.out.println("Enter num1:");
+//                     num1 = s.nextDouble();
+//                     System.out.println("Enter num2:");
+//                     num2 = s.nextDouble();
+                    num1 = 2;
+                    num2 = 3;
                     double res = add(num1, num2);
                     System.out.println(res);
                     break;
