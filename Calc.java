@@ -47,95 +47,101 @@ public class Calc {
         System.out.println("Hello...");
         System.out.println("yo.....");
 
-        Scanner s = new Scanner(System.in);
-        while (1 == 1) 
-        {
-            System.out.println("1. Add");
-            System.out.println("2. Subtract");
-            System.out.println("3. Multiply");
-            System.out.println("4. Division");
-            System.out.println("5. Percentage");
-            System.out.println("6. Power");
-            System.out.println("0. Exit");
-            int func = s.nextInt();
-            switch(func)
-            {
-                case 1:
-                {
+        num1 = 2;
+        num2 = 3;
+        double res = add(num1, num2);
+        System.out.println(res);
+        break;
+        
+//         Scanner s = new Scanner(System.in);
+//         while (1 == 1) 
+//         {
+//             System.out.println("1. Add");
+//             System.out.println("2. Subtract");
+//             System.out.println("3. Multiply");
+//             System.out.println("4. Division");
+//             System.out.println("5. Percentage");
+//             System.out.println("6. Power");
+//             System.out.println("0. Exit");
+//             int func = s.nextInt();
+//             switch(func)
+//             {
+//                 case 1:
+//                 {
+// //                     System.out.println("Enter num1:");
+// //                     num1 = s.nextDouble();
+// //                     System.out.println("Enter num2:");
+// //                     num2 = s.nextDouble();
+//                     num1 = 2;
+//                     num2 = 3;
+//                     double res = add(num1, num2);
+//                     System.out.println(res);
+//                     break;
+//                 }
+//                 case 2:
+//                 {
 //                     System.out.println("Enter num1:");
 //                     num1 = s.nextDouble();
 //                     System.out.println("Enter num2:");
 //                     num2 = s.nextDouble();
-                    num1 = 2;
-                    num2 = 3;
-                    double res = add(num1, num2);
-                    System.out.println(res);
-                    break;
-                }
-                case 2:
-                {
-                    System.out.println("Enter num1:");
-                    num1 = s.nextDouble();
-                    System.out.println("Enter num2:");
-                    num2 = s.nextDouble();
-                    double res = sub(num1, num2);
-                    System.out.println(res);
-                    break;
-                }
-                case 3:
-                {
-                    System.out.println("Enter num1:");
-                    num1 = s.nextDouble();
-                    System.out.println("Enter num2:");
-                    num2 = s.nextDouble();
-                    double res = mul(num1, num2);
-                    System.out.println(res);
-                    break;
-                }
-                case 4:
-                {
-                    System.out.println("Enter num1:");
-                    num1 = s.nextDouble();
-                    System.out.println("Enter num2:");
-                    num2 = s.nextDouble();
-                    double res = div(num1, num2);
-                    System.out.println(res);
-                    break;
-                }
-                case 5:
-                {
-                    System.out.println("Enter num1:");
-                    num1 = s.nextDouble();
-                    System.out.println("Enter num2:");
-                    num2 = s.nextDouble();
-                    double res = per(num1, num2);
-                    System.out.println(res);
-                    break;
-                }
-                case 6:
-                {
-                    System.out.println("Enter num1:");
-                    num1 = s.nextDouble();
-                    System.out.println("Enter num2:");
-                    num2 = s.nextDouble();
-                    double res = pow(num1, num2);
-                    System.out.println(res);
-                    break;
-                }
-                case 0:
-                {
-                    System.exit(0);
-                    break;
-                }
-                default:
-                {
-                    System.out.println("Enter a Valid Function.");
-                    break;
-                }
-            } 
+//                     double res = sub(num1, num2);
+//                     System.out.println(res);
+//                     break;
+//                 }
+//                 case 3:
+//                 {
+//                     System.out.println("Enter num1:");
+//                     num1 = s.nextDouble();
+//                     System.out.println("Enter num2:");
+//                     num2 = s.nextDouble();
+//                     double res = mul(num1, num2);
+//                     System.out.println(res);
+//                     break;
+//                 }
+//                 case 4:
+//                 {
+//                     System.out.println("Enter num1:");
+//                     num1 = s.nextDouble();
+//                     System.out.println("Enter num2:");
+//                     num2 = s.nextDouble();
+//                     double res = div(num1, num2);
+//                     System.out.println(res);
+//                     break;
+//                 }
+//                 case 5:
+//                 {
+//                     System.out.println("Enter num1:");
+//                     num1 = s.nextDouble();
+//                     System.out.println("Enter num2:");
+//                     num2 = s.nextDouble();
+//                     double res = per(num1, num2);
+//                     System.out.println(res);
+//                     break;
+//                 }
+//                 case 6:
+//                 {
+//                     System.out.println("Enter num1:");
+//                     num1 = s.nextDouble();
+//                     System.out.println("Enter num2:");
+//                     num2 = s.nextDouble();
+//                     double res = pow(num1, num2);
+//                     System.out.println(res);
+//                     break;
+//                 }
+//                 case 0:
+//                 {
+//                     System.exit(0);
+//                     break;
+//                 }
+//                 default:
+//                 {
+//                     System.out.println("Enter a Valid Function.");
+//                     break;
+//                 }
+//             } 
 
             
-        }
+//         }
 
     }
 
