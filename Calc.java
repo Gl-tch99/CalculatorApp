@@ -51,7 +51,6 @@ public class Calc {
         num2 = 3;
         double res = add(num1, num2);
         System.out.println(res);
-        break;
         
 //         Scanner s = new Scanner(System.in);
 //         while (1 == 1) 
